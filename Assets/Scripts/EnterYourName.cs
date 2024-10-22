@@ -17,7 +17,7 @@ public class EnterYourName : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(yourName);
+        //Debug.Log(yourName);
     }
 
     //改行なし
@@ -37,9 +37,9 @@ public class EnterYourName : MonoBehaviour
         //InputFieldからテキスト情報を取得する
         yourName = inputField.text;
         Debug.Log(yourName);
-        GameManager.instance.name = yourName;
+        GameManager.instance.president = yourName;
         //入力フォームのテキストを空にする
-        InitInputField();
+        //InitInputField();たぶんいらないと思う
     }
 
     /// 入力値をリセットして、フィールドにフォーカスする

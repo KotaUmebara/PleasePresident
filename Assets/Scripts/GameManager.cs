@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; set; } = null;
-    public string name; //名前
+    public string president;//名前
     public int score;       //スコア
     public int happiness;   //幸福度
 
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
