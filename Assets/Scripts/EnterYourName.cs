@@ -37,6 +37,7 @@ public class EnterYourName : MonoBehaviour
         //InputFieldからテキスト情報を取得する
         yourName = inputField.text;
         Debug.Log(yourName);
+        GameManager.instance.name = yourName;
         //入力フォームのテキストを空にする
         InitInputField();
     }
