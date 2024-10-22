@@ -5,19 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnClickStart()
+    {
+        SceneManager.LoadScene("NameScene");
+    }
+
+    public void OnClickNameDecision()
     {
         SceneManager.LoadScene("GameScene");
     }
