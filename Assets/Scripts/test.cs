@@ -19,4 +19,9 @@ public class test : MonoBehaviour
     {
         
     }
+
+    void OnClickDamege()
+    {
+        GameManager.instance.happiness = -1;
+    }
 }
