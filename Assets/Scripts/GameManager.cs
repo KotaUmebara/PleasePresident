@@ -24,7 +24,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-
+        score = 1000;
+        happiness = 5;//Œã‚Å—”‚É
     }
 
     // Update is called once per frame
